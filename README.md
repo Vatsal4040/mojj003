@@ -1,28 +1,35 @@
-Tower of Hanoi
+# Tower of Hanoi
 
-Concept:
-A classic puzzle.
+A classic logic puzzle.
 
-Move all disks from the left peg to the right peg:
+Move all disks from the first tower to the last tower.
+You may only move one disk at a time.
+A larger disk can never sit on a smaller one.
 
-One disk at a time
+## Why this game exists
+Tower of Hanoi is a pure problem-solving challenge.
 
-Never place a larger disk on a smaller one
+It rewards planning and patience.
+There are no shortcuts.
 
-How it works:
+## How it works
+- Disks start stacked on the first tower
+- Move disks between towers one at a time
+- Larger disks cannot be placed on smaller ones
+- The puzzle is solved when all disks reach the final tower
 
--Interactive drag / click play
+The rules never change.
 
--Move counter
+## Design principles
+- Clear visual hierarchy
+- Predictable behavior
+- No unnecessary UI elements
+- Focus on the puzzle itself
 
--Minimum moves shown
+## Notes
+- Difficulty scales naturally with disk count
+- The optimal solution always exists
 
--Reset anytime
-
-Why it’s fun:
-
--Pure logic
-
--Timeless puzzle
-
--Surprisingly satisfying
+## Status
+✅ Locked  
+Logic and rules should not be modified.
